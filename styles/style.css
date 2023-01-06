@@ -4,7 +4,7 @@
 }
 .btn-primary{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     background-color: #FF5959;
     padding: 16px 25px;
@@ -79,6 +79,7 @@ main{
     background-color: #e9e9e9;
     border: 1px solid #e9e9e9;
     border-radius: 5px;
+    cursor: pointer;
 }
 .box:hover{
     color: #FF5959;
@@ -99,7 +100,7 @@ hr{
 
 /* plan section styles */
 .plan{
-    padding: 130px 150px;
+    padding: 30px 150px;
 }
 .plan-title{
     font-size: 45px;
@@ -146,4 +147,97 @@ hr{
     font-size: 16px;
     font-weight: 400;
     color: #707070;
+}
+
+/* Blog section styles */
+.blogs{
+    padding: 30px 150px;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 120px 0;
+}
+.blog-content{
+    width: 60%;
+}
+.blog-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+.blog-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 20px;
+}
+.blog-img img{
+    width: 450px;
+}
+
+/* Update section styles */
+.update{
+    padding: 40px 150px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.update-title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+}
+.update-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.update-form{
+    margin: 30px 0;
+}
+.update-form input[type="email"]{
+    width: 40%;
+    padding: 10px 20px;
+    border: 0;
+    background-color: #D9D9D9;
+    font-size: 14px;
+    margin: 0;
+}
+.update-form input[type="button"]{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #FF5959;
+    padding: 8px 24px;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.update-form input[type="button"]:hover{
+    background-color: green;
+}
+
+/* footer section styles */
+.foot{
+    padding: 60px 0;
+    text-align: center;
+    background-color: #0B0D17;
+}
+.foot-title{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+.foot-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-style: italic;
 }
