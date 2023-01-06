@@ -9,7 +9,7 @@
     background-color: #FF5959;
     padding: 16px 25px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 .btn-primary:hover{
@@ -40,4 +40,59 @@
     font-weight: 400;
     color: white;
     margin-bottom: 20px;
+}
+
+/* main section styles */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* donate section styles */
+.donate{
+    padding: 130px 300px;
+    text-align: center;
+}
+.donate-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.donate-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.box{
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    width: 123px;
+    padding: 40px 20px;
+    background-color: #e9e9e9;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+.box:hover{
+    color: #FF5959;
+    border-color: #FF5959;
+}
+.other-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 20px;
+}
+hr{
+    text-align: center;
+    width: 600px;
+    margin-bottom: 20px;
+    color: #dadada;
 }
