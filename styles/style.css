@@ -271,7 +271,7 @@ hr{
     .donate-title , .plan-title , .blog-title , .update-title{
         font-size: 30px;
     }
-    .donate-info , .plan-info , .update-info{
+    .donate-info , .plan-info , .update-info , .blog-info{
         font-size: 14px;
     }
     .donate-box{
