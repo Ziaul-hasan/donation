@@ -241,3 +241,87 @@ hr{
     color: white;
     font-style: italic;
 }
+
+
+/* responsive design for mobile device */
+@media screen and (max-width: 576px) {
+    .banner{
+        height: 300px;
+        padding: 30px 10px;
+        background-size: cover;
+    }
+    .banner-title{
+        margin-top: 36px;
+        font-size: 30px;
+    }
+    .banner-info{
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    .btn-primary{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+    .donate , .plan , .update{
+        margin-top: 20px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .donate-title , .plan-title , .blog-title , .update-title{
+        font-size: 30px;
+    }
+    .donate-info , .plan-info , .update-info{
+        font-size: 14px;
+    }
+    .donate-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    hr{
+        width: 300px;
+        margin: 20px auto;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card-box img{
+        width: 50px;
+    }
+    .box-title{
+        font-size: 18px;
+    }
+    .box-info{
+        font-size: 14px;
+    }
+    .blogs{
+        padding: 30px 20px;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin: 20px 0;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 0;
+    }
+    .blog-img img{
+        width: 100%;
+    }
+    .blog-content{
+        width: 100%;
+    }
+    .update-form input[type="button"]{
+        font-size: 14px;
+    }
+    .foot-title{
+        font-size: 30px;
+    }
+}
