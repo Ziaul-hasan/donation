@@ -325,3 +325,73 @@ hr{
         font-size: 30px;
     }
 }
+
+/* responsive styles for tablet */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner{
+        height: 320px;
+        padding: 30px 30px;
+        background-size: cover;
+    }
+    .banner-title{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .banner-info{
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .btn-primary{
+        font-size: 18px;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+    .donate , .plan , .update{
+        margin-top: 20px;
+        padding: 30px 30px;
+        text-align: center;
+    }
+    .donate-box{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    hr{
+        width: 500px;
+        margin: 20px auto;
+    }
+    .card{
+        display: flex;
+        gap: 10px;
+    }
+    .card-box img{
+        width: 50px;
+    }
+    .box-title{
+        font-size: 20px;
+    }
+    .box-info{
+        font-size: 16px;
+    }
+    .blogs{
+        padding: 30px 20px;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin: 40px 0;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 30px 0;
+    }
+    .blog-img img{
+        width: 100%;
+    }
+    .blog-content{
+        width: 100%;
+    }
+}
